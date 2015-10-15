@@ -56,6 +56,7 @@ class CapitalmarketsController extends Controller
         curl_setopt($ch, CURLOPT_PORT , 443);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_NOBODY, true);
 
         curl_setopt($ch, CURLOPT_POST, true);
         curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode([
@@ -70,7 +71,7 @@ class CapitalmarketsController extends Controller
         }
 
         if ($result == null) {
-            $result = json_encode(['error_message' => 'Give Bible money.']);
+            $result = json_encode(['error_message' => 'Give Bible money.', 'httpcode' => curl_getinfo($ch, CURLINFO_HTTP_CODE)]);
         }
 
         curl_close($ch);
