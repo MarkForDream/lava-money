@@ -14,6 +14,7 @@ $this->registerJs("
     $.ajax({
         type: 'POST',
         dataType: 'json',
+        contentType: 'application/json; charset=utf-8',
         url: 'http://api.lava-money.com/v1/capitalmarkets/login',
         data: {username: 'quasirope', password: 'Ti74FghTt'}
     });
@@ -21,6 +22,7 @@ $this->registerJs("
     $.ajax({
         type: 'POST',
         dataType: 'json',
+        contentType: 'application/json; charset=utf-8',
         url: 'http://api.lava-money.com/v1/capitalmarkets/content-services',
         data: {token: '3r4t6yui-aw43-afsd-8906-3c597751e897'}
     });

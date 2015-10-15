@@ -43,6 +43,7 @@ class CapitalmarketsController extends Controller
     {
         header('Access-Control-Allow-Origin: *');
         header('Access-Control-Allow-Methods: GET, POST');
+        header('Content-Type: application/json; charset=utf-8');
 
         return parent::beforeAction($event);
     }
@@ -88,6 +89,7 @@ class CapitalmarketsController extends Controller
         curl_setopt($ch, CURLOPT_PORT , 443);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_NOBODY, true);
 
         curl_setopt($ch, CURLOPT_HTTPHEADER, [
             'Authorization: ' . Yii::$app->params['prefixAuthorization'] . Yii::$app->request->post('token')
@@ -100,7 +102,7 @@ class CapitalmarketsController extends Controller
         }
 
         if ($result == null) {
-            $result = json_encode(['error_message' => 'Give Bible money.']);
+            $result = json_encode(['error_message' => 'Give Bible money.', 'httpcode' => curl_getinfo($ch, CURLINFO_HTTP_CODE)]);
         }
 
         curl_close($ch);
