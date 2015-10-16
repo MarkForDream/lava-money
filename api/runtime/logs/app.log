@@ -33642,3 +33642,825 @@ Stack trace:
     'REQUEST_TIME_FLOAT' => 1444934329.9058
     'REQUEST_TIME' => 1444934329
 ]
+2015-10-16 03:08:01 [192.168.43.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\Request::getPost()' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\base\Component->__call('getPost', Array)
+#1 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->getPost('username')
+#2 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#3 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#9 {main}
+2015-10-16 03:08:01 [192.168.43.1][-][-][info][application] $_SERVER = [
+    'USER' => 'dev'
+    'HOME' => '/home/dev'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/share/nginx/html/lava-money/api/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '37'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/v1/capitalmarkets/login'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/share/nginx/html/lava-money/api/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.4.6'
+    'REMOTE_ADDR' => '192.168.43.1'
+    'REMOTE_PORT' => '52095'
+    'SERVER_ADDR' => '192.168.43.129'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'apilocal.lava-money.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apilocal.lava-money.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '37'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '4771de69-5ac5-1bd6-92ed-f77ef48f7388'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1444964881.546
+    'REQUEST_TIME' => 1444964881
+]
+2015-10-16 03:08:02 [192.168.43.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\Request::getPost()' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\base\Component->__call('getPost', Array)
+#1 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->getPost('username')
+#2 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#3 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#9 {main}
+2015-10-16 03:08:02 [192.168.43.1][-][-][info][application] $_SERVER = [
+    'USER' => 'dev'
+    'HOME' => '/home/dev'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/share/nginx/html/lava-money/api/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '37'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/v1/capitalmarkets/login'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/share/nginx/html/lava-money/api/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.4.6'
+    'REMOTE_ADDR' => '192.168.43.1'
+    'REMOTE_PORT' => '52095'
+    'SERVER_ADDR' => '192.168.43.129'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'apilocal.lava-money.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apilocal.lava-money.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '37'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '442f69a4-4f3a-03fc-b414-d9b0db2ae3ef'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1444964882.5246
+    'REQUEST_TIME' => 1444964882
+]
+2015-10-16 03:08:30 [192.168.43.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\Request::getPost()' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\base\Component->__call('getPost', Array)
+#1 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->getPost()
+#2 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#3 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#9 {main}
+2015-10-16 03:08:30 [192.168.43.1][-][-][info][application] $_SERVER = [
+    'USER' => 'dev'
+    'HOME' => '/home/dev'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/share/nginx/html/lava-money/api/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '37'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/v1/capitalmarkets/login'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/share/nginx/html/lava-money/api/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.4.6'
+    'REMOTE_ADDR' => '192.168.43.1'
+    'REMOTE_PORT' => '52095'
+    'SERVER_ADDR' => '192.168.43.129'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'apilocal.lava-money.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apilocal.lava-money.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '37'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '8a76ffd6-980b-9d1c-53dc-5bc14a00e53e'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1444964910.9133
+    'REQUEST_TIME' => 1444964910
+]
+2015-10-16 03:08:31 [192.168.43.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\Request::getPost()' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\base\Component->__call('getPost', Array)
+#1 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->getPost()
+#2 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#3 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#9 {main}
+2015-10-16 03:08:31 [192.168.43.1][-][-][info][application] $_SERVER = [
+    'USER' => 'dev'
+    'HOME' => '/home/dev'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/share/nginx/html/lava-money/api/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '37'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/v1/capitalmarkets/login'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/share/nginx/html/lava-money/api/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.4.6'
+    'REMOTE_ADDR' => '192.168.43.1'
+    'REMOTE_PORT' => '52095'
+    'SERVER_ADDR' => '192.168.43.129'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'apilocal.lava-money.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apilocal.lava-money.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '37'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'a08acf02-ab06-5987-910f-8713641210e5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1444964911.8066
+    'REQUEST_TIME' => 1444964911
+]
+2015-10-16 03:09:50 [192.168.43.1][-][-][error][yii\web\HttpException:400] exception 'yii\base\InvalidParamException' with message 'Syntax error.' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/helpers/BaseJson.php:96
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/helpers/BaseJson.php(74): yii\helpers\BaseJson::handleJsonError(4)
+#1 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/JsonParser.php(51): yii\helpers\BaseJson::decode('username=quasir...', true)
+#2 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(394): yii\web\JsonParser->parse('username=quasir...', 'application/jso...')
+#3 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(450): yii\web\Request->getBodyParams()
+#4 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->post()
+#5 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#9 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#10 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\web\BadRequestHttpException' with message 'Invalid JSON data in request body: Syntax error.' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/JsonParser.php:54
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(394): yii\web\JsonParser->parse('username=quasir...', 'application/jso...')
+#1 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(450): yii\web\Request->getBodyParams()
+#2 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->post()
+#3 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#4 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#8 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#10 {main}
+2015-10-16 03:09:50 [192.168.43.1][-][-][info][application] $_SERVER = [
+    'USER' => 'dev'
+    'HOME' => '/home/dev'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/share/nginx/html/lava-money/api/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '37'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/v1/capitalmarkets/login'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/share/nginx/html/lava-money/api/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.4.6'
+    'REMOTE_ADDR' => '192.168.43.1'
+    'REMOTE_PORT' => '52095'
+    'SERVER_ADDR' => '192.168.43.129'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'apilocal.lava-money.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apilocal.lava-money.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '37'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '90134ea1-f6d1-496f-2b99-a5f285fa1b13'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1444964990.4987
+    'REQUEST_TIME' => 1444964990
+]
+2015-10-16 03:09:51 [192.168.43.1][-][-][error][yii\web\HttpException:400] exception 'yii\base\InvalidParamException' with message 'Syntax error.' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/helpers/BaseJson.php:96
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/helpers/BaseJson.php(74): yii\helpers\BaseJson::handleJsonError(4)
+#1 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/JsonParser.php(51): yii\helpers\BaseJson::decode('username=quasir...', true)
+#2 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(394): yii\web\JsonParser->parse('username=quasir...', 'application/jso...')
+#3 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(450): yii\web\Request->getBodyParams()
+#4 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->post()
+#5 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#9 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#10 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\web\BadRequestHttpException' with message 'Invalid JSON data in request body: Syntax error.' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/JsonParser.php:54
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(394): yii\web\JsonParser->parse('username=quasir...', 'application/jso...')
+#1 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(450): yii\web\Request->getBodyParams()
+#2 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->post()
+#3 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#4 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#8 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#10 {main}
+2015-10-16 03:09:51 [192.168.43.1][-][-][info][application] $_SERVER = [
+    'USER' => 'dev'
+    'HOME' => '/home/dev'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/share/nginx/html/lava-money/api/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '37'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/v1/capitalmarkets/login'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/share/nginx/html/lava-money/api/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.4.6'
+    'REMOTE_ADDR' => '192.168.43.1'
+    'REMOTE_PORT' => '52095'
+    'SERVER_ADDR' => '192.168.43.129'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'apilocal.lava-money.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apilocal.lava-money.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '37'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'd0154b7c-9087-18c6-f0d7-4d3219be18e1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1444964991.8934
+    'REQUEST_TIME' => 1444964991
+]
+2015-10-16 03:09:52 [192.168.43.1][-][-][error][yii\web\HttpException:400] exception 'yii\base\InvalidParamException' with message 'Syntax error.' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/helpers/BaseJson.php:96
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/helpers/BaseJson.php(74): yii\helpers\BaseJson::handleJsonError(4)
+#1 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/JsonParser.php(51): yii\helpers\BaseJson::decode('username=quasir...', true)
+#2 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(394): yii\web\JsonParser->parse('username=quasir...', 'application/jso...')
+#3 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(450): yii\web\Request->getBodyParams()
+#4 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->post()
+#5 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#9 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#10 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\web\BadRequestHttpException' with message 'Invalid JSON data in request body: Syntax error.' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/JsonParser.php:54
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(394): yii\web\JsonParser->parse('username=quasir...', 'application/jso...')
+#1 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(450): yii\web\Request->getBodyParams()
+#2 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->post()
+#3 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#4 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#8 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#10 {main}
+2015-10-16 03:09:52 [192.168.43.1][-][-][info][application] $_SERVER = [
+    'USER' => 'dev'
+    'HOME' => '/home/dev'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/share/nginx/html/lava-money/api/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '37'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/v1/capitalmarkets/login'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/share/nginx/html/lava-money/api/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.4.6'
+    'REMOTE_ADDR' => '192.168.43.1'
+    'REMOTE_PORT' => '52095'
+    'SERVER_ADDR' => '192.168.43.129'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'apilocal.lava-money.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apilocal.lava-money.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '37'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'af35eb56-d327-a580-5717-e36acb81f5fe'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1444964992.6663
+    'REQUEST_TIME' => 1444964992
+]
+2015-10-16 03:10:13 [192.168.43.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\Request::getPost()' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\base\Component->__call('getPost', Array)
+#1 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->getPost()
+#2 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#3 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#9 {main}
+2015-10-16 03:10:13 [192.168.43.1][-][-][info][application] $_SERVER = [
+    'USER' => 'dev'
+    'HOME' => '/home/dev'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/share/nginx/html/lava-money/api/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '37'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/v1/capitalmarkets/login'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/share/nginx/html/lava-money/api/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.4.6'
+    'REMOTE_ADDR' => '192.168.43.1'
+    'REMOTE_PORT' => '52095'
+    'SERVER_ADDR' => '192.168.43.129'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'apilocal.lava-money.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apilocal.lava-money.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '37'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '8c9a8d45-b854-52f5-d5fc-f11af00a22a0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1444965013.6672
+    'REQUEST_TIME' => 1444965013
+]
+2015-10-16 03:10:14 [192.168.43.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\web\Request::getPost()' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Component.php:285
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\base\Component->__call('getPost', Array)
+#1 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->getPost()
+#2 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#3 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#9 {main}
+2015-10-16 03:10:14 [192.168.43.1][-][-][info][application] $_SERVER = [
+    'USER' => 'dev'
+    'HOME' => '/home/dev'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/share/nginx/html/lava-money/api/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '37'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/v1/capitalmarkets/login'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/share/nginx/html/lava-money/api/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.4.6'
+    'REMOTE_ADDR' => '192.168.43.1'
+    'REMOTE_PORT' => '52095'
+    'SERVER_ADDR' => '192.168.43.129'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'apilocal.lava-money.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apilocal.lava-money.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '37'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '23c98eb9-f356-3a37-5094-279cc333dccf'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1444965014.5841
+    'REQUEST_TIME' => 1444965014
+]
+2015-10-16 03:11:35 [192.168.43.1][-][-][error][yii\web\HttpException:400] exception 'yii\base\InvalidParamException' with message 'Syntax error.' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/helpers/BaseJson.php:96
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/helpers/BaseJson.php(74): yii\helpers\BaseJson::handleJsonError(4)
+#1 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/JsonParser.php(51): yii\helpers\BaseJson::decode('username=quasir...', true)
+#2 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(394): yii\web\JsonParser->parse('username=quasir...', 'application/jso...')
+#3 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(450): yii\web\Request->getBodyParams()
+#4 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->post()
+#5 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#9 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#10 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\web\BadRequestHttpException' with message 'Invalid JSON data in request body: Syntax error.' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/JsonParser.php:54
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(394): yii\web\JsonParser->parse('username=quasir...', 'application/jso...')
+#1 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(450): yii\web\Request->getBodyParams()
+#2 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->post()
+#3 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#4 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#8 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#10 {main}
+2015-10-16 03:11:35 [192.168.43.1][-][-][info][application] $_SERVER = [
+    'USER' => 'dev'
+    'HOME' => '/home/dev'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/share/nginx/html/lava-money/api/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '37'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/v1/capitalmarkets/login'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/share/nginx/html/lava-money/api/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.4.6'
+    'REMOTE_ADDR' => '192.168.43.1'
+    'REMOTE_PORT' => '60969'
+    'SERVER_ADDR' => '192.168.43.129'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'apilocal.lava-money.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apilocal.lava-money.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '37'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'ea918500-6688-6307-9337-66e09cc0f6cd'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1444965095.9124
+    'REQUEST_TIME' => 1444965095
+]
+2015-10-16 03:11:36 [192.168.43.1][-][-][error][yii\web\HttpException:400] exception 'yii\base\InvalidParamException' with message 'Syntax error.' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/helpers/BaseJson.php:96
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/helpers/BaseJson.php(74): yii\helpers\BaseJson::handleJsonError(4)
+#1 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/JsonParser.php(51): yii\helpers\BaseJson::decode('username=quasir...', true)
+#2 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(394): yii\web\JsonParser->parse('username=quasir...', 'application/jso...')
+#3 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(450): yii\web\Request->getBodyParams()
+#4 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->post()
+#5 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#9 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#10 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\web\BadRequestHttpException' with message 'Invalid JSON data in request body: Syntax error.' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/JsonParser.php:54
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(394): yii\web\JsonParser->parse('username=quasir...', 'application/jso...')
+#1 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(450): yii\web\Request->getBodyParams()
+#2 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->post()
+#3 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#4 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#8 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#10 {main}
+2015-10-16 03:11:36 [192.168.43.1][-][-][info][application] $_SERVER = [
+    'USER' => 'dev'
+    'HOME' => '/home/dev'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/share/nginx/html/lava-money/api/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '37'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/v1/capitalmarkets/login'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/share/nginx/html/lava-money/api/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.4.6'
+    'REMOTE_ADDR' => '192.168.43.1'
+    'REMOTE_PORT' => '60969'
+    'SERVER_ADDR' => '192.168.43.129'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'apilocal.lava-money.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apilocal.lava-money.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '37'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '871fba95-0f32-66d1-57fc-d29138820dca'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1444965096.5385
+    'REQUEST_TIME' => 1444965096
+]
+2015-10-16 03:14:23 [192.168.43.1][-][-][error][yii\web\HttpException:400] exception 'yii\base\InvalidParamException' with message 'Syntax error.' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/helpers/BaseJson.php:96
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/helpers/BaseJson.php(74): yii\helpers\BaseJson::handleJsonError(4)
+#1 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/JsonParser.php(51): yii\helpers\BaseJson::decode('username=quasir...', true)
+#2 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(394): yii\web\JsonParser->parse('username=quasir...', 'application/jso...')
+#3 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(450): yii\web\Request->getBodyParams()
+#4 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->post()
+#5 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#9 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#10 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\web\BadRequestHttpException' with message 'Invalid JSON data in request body: Syntax error.' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/JsonParser.php:54
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(394): yii\web\JsonParser->parse('username=quasir...', 'application/jso...')
+#1 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(450): yii\web\Request->getBodyParams()
+#2 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->post()
+#3 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#4 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#8 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#10 {main}
+2015-10-16 03:14:23 [192.168.43.1][-][-][info][application] $_SERVER = [
+    'USER' => 'dev'
+    'HOME' => '/home/dev'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/share/nginx/html/lava-money/api/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '37'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/v1/capitalmarkets/login'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/share/nginx/html/lava-money/api/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.4.6'
+    'REMOTE_ADDR' => '192.168.43.1'
+    'REMOTE_PORT' => '55329'
+    'SERVER_ADDR' => '192.168.43.129'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'apilocal.lava-money.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apilocal.lava-money.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '37'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'a995bf1b-ae41-da81-595e-56818a047d84'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1444965263.3172
+    'REQUEST_TIME' => 1444965263
+]
+2015-10-16 03:14:24 [192.168.43.1][-][-][error][yii\web\HttpException:400] exception 'yii\base\InvalidParamException' with message 'Syntax error.' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/helpers/BaseJson.php:96
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/helpers/BaseJson.php(74): yii\helpers\BaseJson::handleJsonError(4)
+#1 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/JsonParser.php(51): yii\helpers\BaseJson::decode('username=quasir...', true)
+#2 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(394): yii\web\JsonParser->parse('username=quasir...', 'application/jso...')
+#3 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(450): yii\web\Request->getBodyParams()
+#4 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->post()
+#5 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#9 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#10 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\web\BadRequestHttpException' with message 'Invalid JSON data in request body: Syntax error.' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/JsonParser.php:54
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(394): yii\web\JsonParser->parse('username=quasir...', 'application/jso...')
+#1 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(450): yii\web\Request->getBodyParams()
+#2 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->post()
+#3 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#4 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#8 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#10 {main}
+2015-10-16 03:14:24 [192.168.43.1][-][-][info][application] $_SERVER = [
+    'USER' => 'dev'
+    'HOME' => '/home/dev'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/share/nginx/html/lava-money/api/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '37'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/v1/capitalmarkets/login'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/share/nginx/html/lava-money/api/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.4.6'
+    'REMOTE_ADDR' => '192.168.43.1'
+    'REMOTE_PORT' => '55329'
+    'SERVER_ADDR' => '192.168.43.129'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'apilocal.lava-money.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apilocal.lava-money.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '37'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'ce1284a1-3bdf-d84f-9c6a-6d0edb0c8528'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1444965264.2398
+    'REQUEST_TIME' => 1444965264
+]
+2015-10-16 03:14:24 [192.168.43.1][-][-][error][yii\web\HttpException:400] exception 'yii\base\InvalidParamException' with message 'Syntax error.' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/helpers/BaseJson.php:96
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/helpers/BaseJson.php(74): yii\helpers\BaseJson::handleJsonError(4)
+#1 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/JsonParser.php(51): yii\helpers\BaseJson::decode('username=quasir...', true)
+#2 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(394): yii\web\JsonParser->parse('username=quasir...', 'application/jso...')
+#3 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(450): yii\web\Request->getBodyParams()
+#4 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->post()
+#5 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#9 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#10 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\web\BadRequestHttpException' with message 'Invalid JSON data in request body: Syntax error.' in /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/JsonParser.php:54
+Stack trace:
+#0 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(394): yii\web\JsonParser->parse('username=quasir...', 'application/jso...')
+#1 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Request.php(450): yii\web\Request->getBodyParams()
+#2 /usr/share/nginx/html/lava-money/api/modules/v1/controllers/CapitalmarketsController.php(58): yii\web\Request->post()
+#3 [internal function]: api\modules\v1\controllers\CapitalmarketsController->actionLogin()
+#4 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#7 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('v1/capitalmarke...', Array)
+#8 /usr/share/nginx/html/lava-money/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /usr/share/nginx/html/lava-money/api/web/index.php(16): yii\base\Application->run()
+#10 {main}
+2015-10-16 03:14:24 [192.168.43.1][-][-][info][application] $_SERVER = [
+    'USER' => 'dev'
+    'HOME' => '/home/dev'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/share/nginx/html/lava-money/api/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/json'
+    'CONTENT_LENGTH' => '37'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/v1/capitalmarkets/login'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/share/nginx/html/lava-money/api/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.4.6'
+    'REMOTE_ADDR' => '192.168.43.1'
+    'REMOTE_PORT' => '55329'
+    'SERVER_ADDR' => '192.168.43.129'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'apilocal.lava-money.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apilocal.lava-money.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '37'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'bc4cdf25-33b3-664e-57bd-7d5bd73d4cb2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1444965264.9228
+    'REQUEST_TIME' => 1444965264
+]

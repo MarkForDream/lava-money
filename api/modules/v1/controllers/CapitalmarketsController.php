@@ -49,7 +49,12 @@ class CapitalmarketsController extends BaseController
         $password = '';
         $url = $this->getCitiServerHost('/capitalmarkets/v1/login');
 
-        parse_str(file_get_contents('php://input'));
+        if (($rawBody = json_decode(Yii::$app->request->getRawBody(), true)) !== null) {
+            $username = isset($rawBody['username']) ? $rawBody['username'] : $username;
+            $password = isset($rawBody['password']) ? $rawBody['password'] : $password;
+        } else {
+            parse_str(file_get_contents('php://input'));
+        }
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
@@ -77,7 +82,11 @@ class CapitalmarketsController extends BaseController
         $token = '';
         $url = $this->getCitiServerHost('/capitalmarkets/v1/content_services');
 
-        parse_str(file_get_contents('php://input'));
+        if (($rawBody = json_decode(Yii::$app->request->getRawBody(), true)) !== null) {
+            $token = isset($rawBody['token']) ? $rawBody['token'] : $token;
+        } else {
+            parse_str(file_get_contents('php://input'));
+        }
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
