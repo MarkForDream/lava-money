@@ -22,6 +22,9 @@ return [
         'request' => [
             'enableCookieValidation' => false,
             'enableCsrfValidation' => false,
+            'parsers' => [
+                'application/json' => 'yii\web\JsonParser',
+            ],
         ],
         'urlManager' => [
             'showScriptName' => false,
